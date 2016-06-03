@@ -19,6 +19,7 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qi-at-e5L">
                     <rect key="frame" x="0.0" y="609" width="375" height="58"/>
                     <color key="backgroundColor" red="0.20392156862745098" green="0.59607843137254901" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                    <accessibility key="accessibilityConfiguration" identifier="AddPatient" label="AddPatienta"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="58" id="QXb-eK-VvH"/>
                     </constraints>

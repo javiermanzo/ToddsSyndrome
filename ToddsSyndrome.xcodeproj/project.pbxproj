@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E159B3E1D010F3E0006E358 /* ToddsSyndromeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E159B3D1D010F3E0006E358 /* ToddsSyndromeUITests.swift */; };
 		2E20E0011CFBDBE20090C01F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20E0001CFBDBE20090C01F /* AppDelegate.swift */; };
 		2E20E01F1CFBDC5C0090C01F /* TSPatientForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20E0131CFBDC5C0090C01F /* TSPatientForm.swift */; };
 		2E20E0211CFBDC5C0090C01F /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20E0161CFBDC5C0090C01F /* NSDate-Extension.swift */; };
@@ -25,7 +26,20 @@
 		96A0E369CD455D71CC7B3292 /* Pods_ToddsSyndrome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767F679FCB64DC2A993973CB /* Pods_ToddsSyndrome.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2E159B401D010F3E0006E358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E20DFF51CFBDBE20090C01F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E20DFFC1CFBDBE20090C01F;
+			remoteInfo = ToddsSyndrome;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2E159B3B1D010F3E0006E358 /* ToddsSyndromeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToddsSyndromeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E159B3D1D010F3E0006E358 /* ToddsSyndromeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToddsSyndromeUITests.swift; sourceTree = "<group>"; };
+		2E159B3F1D010F3E0006E358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E20DFFD1CFBDBE20090C01F /* ToddsSyndrome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToddsSyndrome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E20E0001CFBDBE20090C01F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E20E00C1CFBDBE20090C01F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +63,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2E159B381D010F3E0006E358 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E20DFFA1CFBDBE20090C01F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,10 +81,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E159B3C1D010F3E0006E358 /* ToddsSyndromeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E159B3D1D010F3E0006E358 /* ToddsSyndromeUITests.swift */,
+				2E159B3F1D010F3E0006E358 /* Info.plist */,
+			);
+			path = ToddsSyndromeUITests;
+			sourceTree = "<group>";
+		};
 		2E20DFF41CFBDBE20090C01F = {
 			isa = PBXGroup;
 			children = (
 				2E20DFFF1CFBDBE20090C01F /* ToddsSyndrome */,
+				2E159B3C1D010F3E0006E358 /* ToddsSyndromeUITests */,
 				2E20DFFE1CFBDBE20090C01F /* Products */,
 				E8AED8FE44DB1EA1B3EA1116 /* Pods */,
 				3229A39DEE7543E3B0520D53 /* Frameworks */,
@@ -74,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				2E20DFFD1CFBDBE20090C01F /* ToddsSyndrome.app */,
+				2E159B3B1D010F3E0006E358 /* ToddsSyndromeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,6 +209,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2E159B3A1D010F3E0006E358 /* ToddsSyndromeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E159B441D010F3E0006E358 /* Build configuration list for PBXNativeTarget "ToddsSyndromeUITests" */;
+			buildPhases = (
+				2E159B371D010F3E0006E358 /* Sources */,
+				2E159B381D010F3E0006E358 /* Frameworks */,
+				2E159B391D010F3E0006E358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E159B411D010F3E0006E358 /* PBXTargetDependency */,
+			);
+			name = ToddsSyndromeUITests;
+			productName = ToddsSyndromeUITests;
+			productReference = 2E159B3B1D010F3E0006E358 /* ToddsSyndromeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		2E20DFFC1CFBDBE20090C01F /* ToddsSyndrome */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E20E00F1CFBDBE20090C01F /* Build configuration list for PBXNativeTarget "ToddsSyndrome" */;
@@ -208,6 +258,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Javier Roberto Manzo";
 				TargetAttributes = {
+					2E159B3A1D010F3E0006E358 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2E20DFFC1CFBDBE20090C01F;
+					};
 					2E20DFFC1CFBDBE20090C01F = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -227,11 +281,19 @@
 			projectRoot = "";
 			targets = (
 				2E20DFFC1CFBDBE20090C01F /* ToddsSyndrome */,
+				2E159B3A1D010F3E0006E358 /* ToddsSyndromeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2E159B391D010F3E0006E358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E20DFFB1CFBDBE20090C01F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,6 +357,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2E159B371D010F3E0006E358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E159B3E1D010F3E0006E358 /* ToddsSyndromeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E20DFF91CFBDBE20090C01F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -314,7 +384,37 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2E159B411D010F3E0006E358 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E20DFFC1CFBDBE20090C01F /* ToddsSyndrome */;
+			targetProxy = 2E159B401D010F3E0006E358 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		2E159B421D010F3E0006E358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ToddsSyndromeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ToddsSyndromeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ToddsSyndrome;
+			};
+			name = Debug;
+		};
+		2E159B431D010F3E0006E358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ToddsSyndromeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ToddsSyndromeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ToddsSyndrome;
+			};
+			name = Release;
+		};
 		2E20E00D1CFBDBE20090C01F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -428,6 +528,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2E159B441D010F3E0006E358 /* Build configuration list for PBXNativeTarget "ToddsSyndromeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E159B421D010F3E0006E358 /* Debug */,
+				2E159B431D010F3E0006E358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		2E20DFF81CFBDBE20090C01F /* Build configuration list for PBXProject "ToddsSyndrome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
