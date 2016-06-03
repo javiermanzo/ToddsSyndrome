@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E20E0011CFBDBE20090C01F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20E0001CFBDBE20090C01F /* AppDelegate.swift */; };
+		2E20E01F1CFBDC5C0090C01F /* TSPatientForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20E0131CFBDC5C0090C01F /* TSPatientForm.swift */; };
+		2E20E0211CFBDC5C0090C01F /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20E0161CFBDC5C0090C01F /* NSDate-Extension.swift */; };
+		2E20E0221CFBDC5C0090C01F /* UIViewController-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20E0171CFBDC5C0090C01F /* UIViewController-Extension.swift */; };
+		2E20E0231CFBDC5C0090C01F /* TSPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E20E0191CFBDC5C0090C01F /* TSPatient.swift */; };
+		2E20E0241CFBDC5C0090C01F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E20E01B1CFBDC5C0090C01F /* Assets.xcassets */; };
+		2E20E0261CFBDC5C0090C01F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E20E01E1CFBDC5C0090C01F /* Main.storyboard */; };
+		2E9F79571D01008B00B356D0 /* TSSplashScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F79561D01008B00B356D0 /* TSSplashScreen.xib */; };
+		2E9F79591D01064000B356D0 /* TSNetworkingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F79581D01064000B356D0 /* TSNetworkingHelper.swift */; };
+		2E9F795B1D01076F00B356D0 /* JSON-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F795A1D01076F00B356D0 /* JSON-Extension.swift */; };
+		2EA474E31CFFE5B5000161AF /* TSUserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA474E21CFFE5B5000161AF /* TSUserDefaultsHelper.swift */; };
+		2EE79EC91CFF2DD300F92949 /* TSPatientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE79EC71CFF2DD300F92949 /* TSPatientCell.swift */; };
+		2EE79ECA1CFF2DD300F92949 /* TSPatientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE79EC81CFF2DD300F92949 /* TSPatientCell.xib */; };
+		2EE926CC1CFD3A2C00927CA7 /* TSListPatientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE926CB1CFD3A2C00927CA7 /* TSListPatientsTableViewController.swift */; };
+		2EE926D51CFD4E0900927CA7 /* TSPatientForm.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE926D31CFD4E0900927CA7 /* TSPatientForm.xib */; };
+		96A0E369CD455D71CC7B3292 /* Pods_ToddsSyndrome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 767F679FCB64DC2A993973CB /* Pods_ToddsSyndrome.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E20DFFD1CFBDBE20090C01F /* ToddsSyndrome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToddsSyndrome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E20E0001CFBDBE20090C01F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E20E00C1CFBDBE20090C01F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E20E0131CFBDC5C0090C01F /* TSPatientForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSPatientForm.swift; sourceTree = "<group>"; };
+		2E20E0161CFBDC5C0090C01F /* NSDate-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
+		2E20E0171CFBDC5C0090C01F /* UIViewController-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController-Extension.swift"; sourceTree = "<group>"; };
+		2E20E0191CFBDC5C0090C01F /* TSPatient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSPatient.swift; sourceTree = "<group>"; };
+		2E20E01B1CFBDC5C0090C01F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E20E01E1CFBDC5C0090C01F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2E9F79561D01008B00B356D0 /* TSSplashScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSSplashScreen.xib; sourceTree = "<group>"; };
+		2E9F79581D01064000B356D0 /* TSNetworkingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSNetworkingHelper.swift; sourceTree = "<group>"; };
+		2E9F795A1D01076F00B356D0 /* JSON-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSON-Extension.swift"; sourceTree = "<group>"; };
+		2EA474E21CFFE5B5000161AF /* TSUserDefaultsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSUserDefaultsHelper.swift; sourceTree = "<group>"; };
+		2EE79EC71CFF2DD300F92949 /* TSPatientCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSPatientCell.swift; sourceTree = "<group>"; };
+		2EE79EC81CFF2DD300F92949 /* TSPatientCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSPatientCell.xib; sourceTree = "<group>"; };
+		2EE926CB1CFD3A2C00927CA7 /* TSListPatientsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSListPatientsTableViewController.swift; sourceTree = "<group>"; };
+		2EE926D31CFD4E0900927CA7 /* TSPatientForm.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSPatientForm.xib; sourceTree = "<group>"; };
+		767F679FCB64DC2A993973CB /* Pods_ToddsSyndrome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToddsSyndrome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D1A0B556ACA22A5146D988 /* Pods-ToddsSyndrome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToddsSyndrome.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToddsSyndrome/Pods-ToddsSyndrome.release.xcconfig"; sourceTree = "<group>"; };
+		D1B7F41927CA2912B03B9CA1 /* Pods-ToddsSyndrome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToddsSyndrome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToddsSyndrome/Pods-ToddsSyndrome.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E20DFFA1CFBDBE20090C01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A0E369CD455D71CC7B3292 /* Pods_ToddsSyndrome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E20DFF41CFBDBE20090C01F = {
+			isa = PBXGroup;
+			children = (
+				2E20DFFF1CFBDBE20090C01F /* ToddsSyndrome */,
+				2E20DFFE1CFBDBE20090C01F /* Products */,
+				E8AED8FE44DB1EA1B3EA1116 /* Pods */,
+				3229A39DEE7543E3B0520D53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E20DFFE1CFBDBE20090C01F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E20DFFD1CFBDBE20090C01F /* ToddsSyndrome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E20DFFF1CFBDBE20090C01F /* ToddsSyndrome */ = {
+			isa = PBXGroup;
+			children = (
+				2E20E0121CFBDC5C0090C01F /* Controller */,
+				2EA474E11CFFE587000161AF /* Data */,
+				2E20E0151CFBDC5C0090C01F /* Extension */,
+				2E20E0181CFBDC5C0090C01F /* Model */,
+				2E20E01A1CFBDC5C0090C01F /* Resources */,
+				2E20E01C1CFBDC5C0090C01F /* UI */,
+				2EE79EC61CFF2DA000F92949 /* View */,
+				2E20E0001CFBDBE20090C01F /* AppDelegate.swift */,
+				2E20E00C1CFBDBE20090C01F /* Info.plist */,
+			);
+			path = ToddsSyndrome;
+			sourceTree = "<group>";
+		};
+		2E20E0121CFBDC5C0090C01F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2EE926CB1CFD3A2C00927CA7 /* TSListPatientsTableViewController.swift */,
+				2E20E0131CFBDC5C0090C01F /* TSPatientForm.swift */,
+				2EE926D31CFD4E0900927CA7 /* TSPatientForm.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E20E0151CFBDC5C0090C01F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2E20E0161CFBDC5C0090C01F /* NSDate-Extension.swift */,
+				2E20E0171CFBDC5C0090C01F /* UIViewController-Extension.swift */,
+				2E9F795A1D01076F00B356D0 /* JSON-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2E20E0181CFBDC5C0090C01F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E20E0191CFBDC5C0090C01F /* TSPatient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E20E01A1CFBDC5C0090C01F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E20E01B1CFBDC5C0090C01F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2E20E01C1CFBDC5C0090C01F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2E20E01E1CFBDC5C0090C01F /* Main.storyboard */,
+				2E9F79561D01008B00B356D0 /* TSSplashScreen.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2EA474E11CFFE587000161AF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2EA474E21CFFE5B5000161AF /* TSUserDefaultsHelper.swift */,
+				2E9F79581D01064000B356D0 /* TSNetworkingHelper.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2EE79EC61CFF2DA000F92949 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EE79EC71CFF2DD300F92949 /* TSPatientCell.swift */,
+				2EE79EC81CFF2DD300F92949 /* TSPatientCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3229A39DEE7543E3B0520D53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				767F679FCB64DC2A993973CB /* Pods_ToddsSyndrome.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8AED8FE44DB1EA1B3EA1116 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1B7F41927CA2912B03B9CA1 /* Pods-ToddsSyndrome.debug.xcconfig */,
+				C5D1A0B556ACA22A5146D988 /* Pods-ToddsSyndrome.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E20DFFC1CFBDBE20090C01F /* ToddsSyndrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E20E00F1CFBDBE20090C01F /* Build configuration list for PBXNativeTarget "ToddsSyndrome" */;
+			buildPhases = (
+				20513509B6C7E86249821AC3 /* 📦 Check Pods Manifest.lock */,
+				2E20DFF91CFBDBE20090C01F /* Sources */,
+				2E20DFFA1CFBDBE20090C01F /* Frameworks */,
+				2E20DFFB1CFBDBE20090C01F /* Resources */,
+				59523A1195E4A6A5108093BC /* 📦 Embed Pods Frameworks */,
+				B07D6A43488C9996AB4E5452 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToddsSyndrome;
+			productName = ToddsSyndrome;
+			productReference = 2E20DFFD1CFBDBE20090C01F /* ToddsSyndrome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E20DFF51CFBDBE20090C01F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TS;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Javier Roberto Manzo";
+				TargetAttributes = {
+					2E20DFFC1CFBDBE20090C01F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 2E20DFF81CFBDBE20090C01F /* Build configuration list for PBXProject "ToddsSyndrome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E20DFF41CFBDBE20090C01F;
+			productRefGroup = 2E20DFFE1CFBDBE20090C01F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E20DFFC1CFBDBE20090C01F /* ToddsSyndrome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E20DFFB1CFBDBE20090C01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E20E0261CFBDC5C0090C01F /* Main.storyboard in Resources */,
+				2E9F79571D01008B00B356D0 /* TSSplashScreen.xib in Resources */,
+				2E20E0241CFBDC5C0090C01F /* Assets.xcassets in Resources */,
+				2EE926D51CFD4E0900927CA7 /* TSPatientForm.xib in Resources */,
+				2EE79ECA1CFF2DD300F92949 /* TSPatientCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20513509B6C7E86249821AC3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59523A1195E4A6A5108093BC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToddsSyndrome/Pods-ToddsSyndrome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B07D6A43488C9996AB4E5452 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToddsSyndrome/Pods-ToddsSyndrome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E20DFF91CFBDBE20090C01F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE926CC1CFD3A2C00927CA7 /* TSListPatientsTableViewController.swift in Sources */,
+				2E20E0231CFBDC5C0090C01F /* TSPatient.swift in Sources */,
+				2E20E0011CFBDBE20090C01F /* AppDelegate.swift in Sources */,
+				2EA474E31CFFE5B5000161AF /* TSUserDefaultsHelper.swift in Sources */,
+				2E20E0221CFBDC5C0090C01F /* UIViewController-Extension.swift in Sources */,
+				2E9F79591D01064000B356D0 /* TSNetworkingHelper.swift in Sources */,
+				2E20E0211CFBDC5C0090C01F /* NSDate-Extension.swift in Sources */,
+				2E9F795B1D01076F00B356D0 /* JSON-Extension.swift in Sources */,
+				2E20E01F1CFBDC5C0090C01F /* TSPatientForm.swift in Sources */,
+				2EE79EC91CFF2DD300F92949 /* TSPatientCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E20E00D1CFBDBE20090C01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E20E00E1CFBDBE20090C01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E20E0101CFBDBE20090C01F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B7F41927CA2912B03B9CA1 /* Pods-ToddsSyndrome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ToddsSyndrome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ToddsSyndrome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E20E0111CFBDBE20090C01F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D1A0B556ACA22A5146D988 /* Pods-ToddsSyndrome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ToddsSyndrome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ToddsSyndrome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E20DFF81CFBDBE20090C01F /* Build configuration list for PBXProject "ToddsSyndrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E20E00D1CFBDBE20090C01F /* Debug */,
+				2E20E00E1CFBDBE20090C01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E20E00F1CFBDBE20090C01F /* Build configuration list for PBXNativeTarget "ToddsSyndrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E20E0101CFBDBE20090C01F /* Debug */,
+				2E20E0111CFBDBE20090C01F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E20DFF51CFBDBE20090C01F /* Project object */;
+}
